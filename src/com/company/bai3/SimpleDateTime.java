@@ -31,7 +31,6 @@ public class SimpleDateTime {
 //2019-10-12 12:12:12
 //   2014-12-13 14:42:12
     }
-
     static Date StringtoDate(String str, SimpleDateFormat sdf) throws Exception {
         Date date = sdf.parse(str);
         return date;
